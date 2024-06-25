@@ -8,6 +8,7 @@ from abc import ABC
 class importData(ABC):
     def __init__(self,patients):
         self.patients_dict=patients #sarà dizionario di pazienti
+        #aggiungere altri membri
     #metodi da aggiungere
     
     
@@ -17,7 +18,8 @@ class import_segm(importData):
     
     def read_segm_geom():
         pass
-
+    def open_segm_geom_element():
+        pass
 class import_img(importData):
     def __init__(self, patients):
         super().__init__(patients)

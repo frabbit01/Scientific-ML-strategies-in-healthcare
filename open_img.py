@@ -1,7 +1,3 @@
-#import meshio
-
-#mesh = meshio.read('file.vtk')
-
 
 #simple code for opening images, I want to use this as base for a method "open segmented image" in one of the derived classes
 import numpy as np
@@ -36,3 +32,5 @@ ax.set_zlabel('Z')
 
 plt.show()
 
+
+#I need to keep the information about color!
